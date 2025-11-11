@@ -38,7 +38,7 @@ Configuración (variables de entorno)
 - HISTORY_BASE_URL=http://localhost:9001
 - HISTORY_API_KEY=secret-token  (opcional)
 
-Recomendaciones de diseño (cumplen lo pedido en la imagen)
+Recomendaciones de diseño 
 ----------------------------------------------------------
 - Envío no bloqueante: construir y devolver la respuesta al cliente y luego
   disparar el envío al servicio B en segundo plano (por ejemplo,
